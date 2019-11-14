@@ -1,3 +1,4 @@
+// Änderungsvorschläge nach dem Sprint vom 09.11.2019
 <script>
     import Nested from './Nested.svelte';
     import Button from './Button.svelte';
