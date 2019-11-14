@@ -16,6 +16,4 @@
 
 </style>
 <Header title="Studentendaten" subtitle="Deine Studentendaten auf einen Blick"/>
-<h1><center>Time for a project!</center></h1>
-<Nested/>
-<Button ButtonText="Start" AltButtonText="Finish" on:message={handleMessage}/>
+<ItemList/>
