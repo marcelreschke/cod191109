@@ -1,0 +1,55 @@
+export default [    {
+        "ID": "1",
+        "Name": "Hans Peter",
+        "Geburtsdatum": "04.02.1997",
+        "Geschlecht": "m",
+        "Martrikelnummer": "984974017384",
+        "Studiengang": "CMM",
+        "Bild": "https://images.unsplash.com/photo-1495603889488-42d1d66e5523?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+    },
+    {
+        "ID": "2",
+        "Name": "Sina",
+        "Geburtsdatum": "08.04.1999",
+        "Geschlecht": "w",
+        "Martrikelnummer": "674207392938",
+        "Studiengang": "CMM",
+        "Bld":"https://images.unsplash.com/photo-1450297350677-623de575f31c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+    },
+    {
+        "ID": "3",
+        "Name": "Sven",
+        "Geburtsdatum": "07.10.1997",
+        "Geschlecht": "m",
+        "Martrikelnummer": "111123456789",
+        "Studiengang": "JBC",
+        "Bild":"https://images.unsplash.com/photo-1523049267777-25e40aca71c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+    },
+    {
+        "ID": "4",
+        "Name": "Olivia Jones",
+        "Geburtsdatum": "01.01.1986",
+        "Geschlecht": "d",
+        "Martrikelnummer":"657893425678",
+        "Studiengang": "CMM",
+        "Bild":"https://images.unsplash.com/photo-1471857497812-f841e2ca8dfc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+    },
+    {
+        "ID": "5",
+        "Name": "Lisanne",
+        "Geburtsdatum": "02.06.1998",
+        "Geschlecht": "w",
+        "Martrikelnummer":"667863465678",
+        "Studiengang": "CMM",
+        "Bild":"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+    },
+    {
+        "ID": "6",
+        "Name": "Volvic",
+        "Geburtsdatum": "26.06.2000",
+        "Geschlecht": "m",
+        "Martrikelnummer":"998736492581",
+        "Studiengang": "JBC",
+        "Bild": "https://images.unsplash.com/photo-1505503693641-1926193e8d57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+    }
+]
