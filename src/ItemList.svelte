@@ -1,8 +1,11 @@
 <script>
     import ItemCard from './ItemCard.svelte'
+
+    export let items = [];
 </script>
 
 <style>
+
 @import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
 h1,p {font-family:Dosis;}
 
@@ -36,44 +39,9 @@ p {
 </style>
 
 <section class="liste">
+    {#each items as item, i}
     <section class="student">
-        <h1>Student 1</h1>
-        <p class="name"><u>Name: </u> Franka Stroetzel </p>
-        <p><u>Geburtsdatum: </u> 10.02.1998 </p>
-        <p><u>Geschlecht: </u> Weiblich </p>
-        <p><u>Studiengang: </u> CMM </p>
-        <p><u>Martrikelnummer: </u> 47304793 </p>
-        <p><u>Foto: </u></p>
+        <ItemCard {item}/>
     </section>
-    <section class="student">
-        <i><b>Student 2</b></i>
-        <p><u>Name: </u></p>
-        <p><u>Geburtsdatum: </u> </p>
-        <p><u>Geschlecht: </u></p>
-        <p><u>Studiengang: </u> <p>
-        <p><u>Martrikelnummer: </u></p>
-        <p><u>Foto: </u></p>
-    </section>
-    <section class="student">
-        <i><b>Student 3</b></i>
-        <p><u>Name: </u></p>
-        <p><u>Geburtsdatum: </u> </p>
-        <p><u>Geschlecht: </u></p>
-        <p><u>Studiengang: </u><p>
-        <p><u>Martrikelnummer: </u></p>
-        <p><u>Foto: </u></p>
-    </section>
-    <section class="student">
-        <i><b>Student 4</b></i>
-        <p><u>Name: </u></p>
-        <p><u>Geburtsdatum: </u> </p>
-        <p><u>Geschlecht: </u></p>
-        p><u>Studiengang: </u><p>
-        <p><u>Martrikelnummer: </u></p>
-        <p><u>Foto: </u></p>
-    </section>
-    <section class="student">
-        <ItemCard/>
-    </section>
-
+    {/each}
 </section>
