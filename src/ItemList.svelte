@@ -1,3 +1,7 @@
+<script>
+    import ItemCard from './ItemCard.svelte'
+</script>
+
 <style>
 @import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
 h1,p {font-family:Dosis;}
@@ -69,13 +73,7 @@ p {
         <p><u>Foto: </u></p>
     </section>
     <section class="student">
-        <i><b>Student 5</b></i>
-        <p><u>Name: </u></p>
-        <p><u>Geburtsdatum: </u></p>
-        <p><u>Geschlecht: </u></p>
-        <p><u>Studiengang: </u><p>
-        <p><u>Martrikelnummer: </u></p>
-        <p><u>Foto: </u></p>
+        <ItemCard/>
     </section>
 
 </section>
